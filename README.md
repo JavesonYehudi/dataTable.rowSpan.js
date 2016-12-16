@@ -36,5 +36,6 @@ Heres a example:
 			</tr>
 		</tbody>
 	</table>
-  
+
+By default, the first column is the handle column to rowspan the table.
 And that's all.
