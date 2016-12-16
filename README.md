@@ -1,7 +1,7 @@
 # dataTable.rowSpan.js
 How to do rowSpan with dataTable.
 
-First create you table with all the columns, after that you add the class 'has-rowGroup' in the columns header witch will have the rowSpan .
+First create you table with all the columns, after that you add the class 'has-rowGroup' in the columns header witch will have the rowSpan.
 
 Heres a example:
 
@@ -36,6 +36,9 @@ Heres a example:
 			</tr>
 		</tbody>
 	</table>
+
+When you create the dataTable, then you have:
+	$("#tableTeste").dataTable().rowSpan();
 
 By default, the first column is the handle column to rowspan the table.
 And that's all.
